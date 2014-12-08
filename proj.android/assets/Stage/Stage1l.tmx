@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="50" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="stage1" tilewidth="64" tileheight="64">
+  <image source="Stage/stage1.png" trans="ff00ff" width="1920" height="3360"/>
+ </tileset>
+ <layer name="map" width="30" height="50">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <objectgroup name="character" width="30" height="50">
+  <object name="player" x="384" y="2944" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="0"/>
+    <property name="ID" value="2"/>
+   </properties>
+  </object>
+  <object name="enermy" x="768" y="2112" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="player" x="384" y="2880" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="0"/>
+    <property name="ID" value="1"/>
+   </properties>
+  </object>
+  <object name="enermy" x="320" y="2688" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="576" y="2368" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="576" y="2304" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="640" y="2304" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="320" y="2752" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="384" y="2688" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="576" y="2432" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="512" y="2432" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="affect" width="30" height="50">
+  <object name="walls" x="832" y="896" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="704" y="640" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="768" y="896" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="640" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="768" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="704" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="768" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="704" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="768" y="640" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="640" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="640" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-128" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-64" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="960" y="640" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="960" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-192" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-256" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-320" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-128" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-384" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-64" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1216" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1152" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1984" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1920" y="448" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="2048" y="448" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1984" y="448" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="2112" y="448" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1920" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="2048" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1984" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="2112" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1920" y="320" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1920" y="256" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1920" y="192" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-256" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-320" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-384" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-192" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-448" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-128" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-64" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-192" y="320" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-256" y="320" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-320" y="320" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-128" y="320" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-384" y="320" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-64" y="320" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-192" y="256" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-256" y="256" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-320" y="256" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-128" y="256" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-384" y="256" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-64" y="256" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-192" y="192" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-256" y="192" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-320" y="192" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-128" y="192" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-384" y="192" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-64" y="192" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-128" y="128" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-192" y="128" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-256" y="128" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-64" y="128" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-320" y="128" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-128" y="64" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-192" y="64" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-256" y="64" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-64" y="64" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-320" y="64" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-128" y="0" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-192" y="0" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-256" y="0" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-64" y="0" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="-320" y="0" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1216" y="640" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1216" y="704" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1344" y="768" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1408" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1792" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1728" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1664" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1344" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1280" y="704" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1600" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1856" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1344" y="896" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1344" y="1024" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1344" y="1088" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1600" y="1216" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="1344" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="1152" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="1152" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1664" y="1728" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="1216" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="1280" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1728" y="1792" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1600" y="1664" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1152" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1216" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1152" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="1536" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1280" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="1600" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1344" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="1664" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="1728" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1408" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="1792" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="1792" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="1856" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1152" y="1920" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1216" y="1920" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1280" y="1984" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1280" y="2048" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="1664" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1664" y="1664" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="1600" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="1536" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="1536" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1792" y="1792" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1856" y="1856" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1344" y="960" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1280" y="2112" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1280" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1344" y="2240" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1344" y="2304" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1408" y="2368" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1408" y="2432" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1600" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1664" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1728" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1792" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1856" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1600" y="2624" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="2624" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="2688" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="2752" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="2816" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="2880" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="2944" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1472" y="3008" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1664" y="2688" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1728" y="2688" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1792" y="2688" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1792" y="2752" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1792" y="2816" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1856" y="2880" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1216" y="3136" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1216" y="3072" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1152" y="3008" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="2944" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="2880" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="2816" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="2752" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="960" y="2752" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="2752" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="2688" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="2816" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="2688" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="960" y="2624" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="960" y="2688" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="2624" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="2560" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="2560" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="2432" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="2368" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="2304" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="2240" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1088" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="960" y="2112" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="2112" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="2240" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="2304" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="2368" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="2368" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="768" y="2432" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="704" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="2048" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="2112" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="1984" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="448" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="704" y="1344" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="768" y="1280" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="1280" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="1216" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="1152" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="1088" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="704" y="960" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="768" y="960" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="1024" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="1024" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="3008" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="3072" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1536" y="3136" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1600" y="3136" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="2560" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="2688" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="2624" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="2752" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="2816" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="2880" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="2944" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="3008" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="3072" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="3136" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="2496" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="2432" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="2368" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="2432" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="448" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="2880" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="2944" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="3008" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="3072" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="3136" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="2816" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="2752" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="2688" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="2624" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="0" y="2560" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="2560" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="2624" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="2624" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="1856" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="1984" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="1920" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="448" y="1856" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="1920" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="1920" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="384" y="1920" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="1984" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="2112" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="1984" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="2048" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="2048" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="0" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="0" y="1664" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="0" y="1600" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="1536" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="1344" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="1344" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="384" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="960" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="960" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="448" y="960" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="384" y="960" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="1024" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="1024" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="1088" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="1088" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="1024" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="0" y="1088" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="2240" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="2304" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="2304" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="384" y="2176" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="2304" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="1024" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

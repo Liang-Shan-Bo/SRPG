@@ -1,0 +1,148 @@
+<SaveData>
+    <STAGE ID="1"/>
+    <character ID="2">
+        <STR>22</STR>
+        <DEX>15</DEX>
+        <DEF>11</DEF>
+        <SPD>8</SPD>
+        <LUK>80</LUK>
+        <MAXHP>90</MAXHP>
+        <HP>90</HP>
+        <EXP>0</EXP>
+        <LEVEL>1</LEVEL>
+        <X>416</X>
+        <Y>224</Y>
+        <SKILLS>
+            <SKILL ID="2"/>
+            <SKILL ID="3"/>
+        </SKILLS>
+    </character>
+    <character ID="14">
+        <STR>35</STR>
+        <DEX>14</DEX>
+        <DEF>18</DEF>
+        <SPD>8</SPD>
+        <LUK>50</LUK>
+        <MAXHP>130</MAXHP>
+        <HP>130</HP>
+        <EXP>0</EXP>
+        <LEVEL>1</LEVEL>
+        <X>800</X>
+        <Y>1056</Y>
+        <SKILLS>
+            <SKILL ID="1"/>
+        </SKILLS>
+    </character>
+    <character ID="1">
+        <STR>37</STR>
+        <DEX>17</DEX>
+        <DEF>20</DEF>
+        <SPD>10</SPD>
+        <LUK>50</LUK>
+        <MAXHP>145</MAXHP>
+        <HP>145</HP>
+        <EXP>0</EXP>
+        <LEVEL>1</LEVEL>
+        <X>416</X>
+        <Y>288</Y>
+        <SKILLS>
+            <SKILL ID="1"/>
+        </SKILLS>
+    </character>
+    <character ID="14">
+        <STR>35</STR>
+        <DEX>14</DEX>
+        <DEF>18</DEF>
+        <SPD>8</SPD>
+        <LUK>50</LUK>
+        <MAXHP>130</MAXHP>
+        <HP>130</HP>
+        <EXP>0</EXP>
+        <LEVEL>1</LEVEL>
+        <X>352</X>
+        <Y>480</Y>
+        <SKILLS>
+            <SKILL ID="1"/>
+        </SKILLS>
+    </character>
+    <character ID="14">
+        <STR>35</STR>
+        <DEX>14</DEX>
+        <DEF>18</DEF>
+        <SPD>8</SPD>
+        <LUK>50</LUK>
+        <MAXHP>130</MAXHP>
+        <HP>130</HP>
+        <EXP>0</EXP>
+        <LEVEL>1</LEVEL>
+        <X>608</X>
+        <Y>800</Y>
+        <SKILLS>
+            <SKILL ID="1"/>
+        </SKILLS>
+    </character>
+    <character ID="14">
+        <STR>35</STR>
+        <DEX>14</DEX>
+        <DEF>18</DEF>
+        <SPD>8</SPD>
+        <LUK>50</LUK>
+        <MAXHP>130</MAXHP>
+        <HP>130</HP>
+        <EXP>0</EXP>
+        <LEVEL>1</LEVEL>
+        <X>608</X>
+        <Y>864</Y>
+        <SKILLS>
+            <SKILL ID="1"/>
+        </SKILLS>
+    </character>
+    <character ID="14">
+        <STR>35</STR>
+        <DEX>14</DEX>
+        <DEF>18</DEF>
+        <SPD>8</SPD>
+        <LUK>50</LUK>
+        <MAXHP>130</MAXHP>
+        <HP>130</HP>
+        <EXP>0</EXP>
+        <LEVEL>1</LEVEL>
+        <X>672</X>
+        <Y>864</Y>
+        <SKILLS>
+            <SKILL ID="1"/>
+        </SKILLS>
+    </character>
+    <character ID="14">
+        <STR>35</STR>
+        <DEX>14</DEX>
+        <DEF>18</DEF>
+        <SPD>8</SPD>
+        <LUK>50</LUK>
+        <MAXHP>130</MAXHP>
+        <HP>130</HP>
+        <EXP>0</EXP>
+        <LEVEL>1</LEVEL>
+        <X>352</X>
+        <Y>416</Y>
+        <SKILLS>
+            <SKILL ID="1"/>
+        </SKILLS>
+    </character>
+    <character ID="14">
+        <STR>35</STR>
+        <DEX>14</DEX>
+        <DEF>18</DEF>
+        <SPD>8</SPD>
+        <LUK>50</LUK>
+        <MAXHP>130</MAXHP>
+        <HP>130</HP>
+        <EXP>0</EXP>
+        <LEVEL>1</LEVEL>
+        <X>416</X>
+        <Y>480</Y>
+        <SKILLS>
+            <SKILL ID="1"/>
+        </SKILLS>
+    </character>
+</SaveData>

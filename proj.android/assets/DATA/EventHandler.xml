@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<EventHandler>
+	<Entries>
+		<Entry ID="1" SceneID="1" SceneType="Start">
+			<Music>
+				<Default>4.mp3</Default>
+			</Music>
+			<Select Name="Default" NextID="101"/>
+		</Entry>
+		<Entry ID="101" SceneID="1" SceneType="Story">
+			<Music>
+				<Default>8.mp3</Default>
+			</Music>
+			<Select Name="Default" NextID="102"/>
+			<Event Select="Default" Transform="True">
+				<Ocurrence>
+					<SceneStart>
+						<Dialog FileName="Story1"/>
+					</SceneStart>
+				</Ocurrence>
+			</Event>
+		</Entry>
+		<Entry ID="102" SceneID="1" SceneType="Battle">
+			<Music>
+				<Default>8.mp3</Default>
+				<Player>Battle1.mp3</Player>
+				<Enermy>Battle2.mp3</Enermy>
+			</Music>
+			<Select Name="Default" NextID="104"/>
+			<Select Name="Clear1" NextID="104"/>
+			<Select Name="Clear2" NextID="103"/>
+			<Select Name="GameOver" NextID="1"/>
+			<Event Transform="False" Select="None">
+				<Ocurrence>
+					<TurnBegin Name="TurnBegin1" Turn="1" CharacterID="-1">
+						<Dialog FileName="Battle1Dialog1" Focus="true"/>
+						<Remark>第一回合开场对话</Remark>
+					</TurnBegin>
+				</Ocurrence>
+			</Event>
+			<Event Transform="False" Select="None">
+				<Ocurrence>
+					<TurnBegin Name="TurnBegin2" Turn="4" CharacterID="-1">
+						<Dialog FileName="Battle1Dialog2" Focus="true"/>
+						<Remark>第一波杂兵援军到来之际</Remark>
+					</TurnBegin>
+				</Ocurrence>
+			</Event>
+			<Event Transform="False" Select="None">
+				<Ocurrence>
+					<TurnBegin Name="TurnBegin3" Turn="3" CharacterID="-1">
+						<Dialog FileName="Battle1Dialog3" Focus="true"/>
+						<Remark>菲德到来</Remark>
+					</TurnBegin>
+				</Ocurrence>
+			</Event>
+			<Event Transform="False" Select="None">
+				<Ocurrence>
+					<TurnBegin Name="TurnBegin5" Turn="7" TurnLimit="-1" CharacterID="-1">
+						<ToUnlock>Arrival1</ToUnlock>
+						<Dialog FileName="Battle1Dialog4" Focus="true"/>
+						<Remark>精锐部队到来</Remark>
+					</TurnBegin>
+				</Ocurrence>
+			</Event>
+			<Event Select="Node" Transform="False">
+				<Ocurrence>
+					<TurnBegin Name="TimeUp1" Turn="11" CharacterID="-1">
+						<Dialog FileName="Battle1Dialog10" Focus="true"/>
+						<ToLock>Arrival1</ToLock>
+						<ToUnlock>Arrival2</ToUnlock>
+						<Remark>10回合没有到达指定地点,帝国精锐部队到达</Remark>
+					</TurnBegin>
+				</Ocurrence>
+			</Event>
+			<Event Select="Clear1" Transform="True">
+				<Ocurrence>
+					<CharacterDefeated Name="Defeat4" Turn="-1" CharacterID="15">
+						<Dialog FileName="Battle1Dialog5" Focus="true"/>
+						<Remark>安诺被击败</Remark>
+					</CharacterDefeated>
+					<Arrival Name="Arrival1" Turn="-1" CharacterID="-1">
+						<Dialog FileName="Battle1Dialog5" Focus="true"/>
+						<Remark>10回合前到达指定地点</Remark>
+					</Arrival>
+				</Ocurrence>
+			</Event>
+			<Event Select="Clear2" Transform="True">
+				<Ocurrence>
+					<Arrival Name="Arrival2" Turn="10" CharacterID="-1">
+						<Key>Arrival2</Key>
+						<Locked/>
+						<Dialog FileName="Battle1Dialog6" Focus="true"/>
+						<Remark>10回合后到达指定地点条</Remark>
+					</Arrival>
+				</Ocurrence>
+			</Event>
+			<Event Select="GameOver" Transform="True">
+				<Ocurrence>
+					<CharacterDefeated Name="Defeat1" CharacterID="1">
+						<Dialog FileName="Battle1Dialog7" Focus="true"/>
+						<Remark>罗格被击败</Remark>
+					</CharacterDefeated>
+					<CharacterDefeated Name="Defeat2" CharacterID="2">
+						<Dialog FileName="Battle1Dialog8" Focus="true"/>
+						<Remark>薇奥拉被击败</Remark>
+					</CharacterDefeated>
+					<CharacterDefeated Name="Defeat3" CharacterID="3">
+						<Dialog FileName="Battle1Dialog9" Focus="true"/>
+						<Remark>菲德被击败</Remark>
+					</CharacterDefeated>
+					<TurnBegin Name="TimeUp2" Turn="21">
+						<Dialog FileName="Battle1Dialog11" Focus="true"/>
+						<Remark>20回合经过,游戏失败</Remark>
+					</TurnBegin>
+				</Ocurrence>
+			</Event>
+		</Entry>
+		<Entry ID="103" SceneID="2" SceneType="Story">
+			<Music>
+				<Default>8.mp3</Default>
+			</Music>
+			<Select Name="Default" NextID="104"/>
+			<Event Select="Default" Transform="True">
+				<Ocurrence>
+					<SceneStart>
+						<Dialog FileName="Story2"/>
+					</SceneStart>
+				</Ocurrence>
+			</Event>
+		</Entry>
+		<Entry ID="104" SceneID="3" SceneType="Story">
+			<Music>
+				<Default>8.mp3</Default>
+			</Music>
+			<Select Name="Default" NextID="105"/>
+			<Event Select="Default" Transform="True">
+				<Ocurrence>
+					<SceneStart>
+						<Dialog FileName="Story3"/>
+					</SceneStart>
+				</Ocurrence>
+			</Event>
+		</Entry>
+		<Entry ID="105" SceneID="2" SceneType="Battle">
+			<Music>
+				<Default>8.mp3</Default>
+				<Player>Battle3.mp3</Player>
+				<Enermy>Battle4.mp3</Enermy>
+			</Music>
+			<Select Name="Default" NextID="110"/>
+			<Select Name="GameOver" NextID="1"/>
+			<Event Select="Default" Transform="True">
+				<Ocurrence>
+					<CharacterDefeated Name="Defeat3">
+						<Dialog FileName="Battle1Dialog5" Focus="true"/>
+						<Remark>敌全灭</Remark>
+						<Force>1</Force>
+					</CharacterDefeated>
+				</Ocurrence>
+			</Event>
+			<Event Select="GameOver" Transform="True">
+				<Ocurrence>
+					<CharacterDefeated Name="Defeat1" CharacterID="1">
+						<Dialog FileName="Battle1Dialog7" Focus="true"/>
+						<Remark>罗格被击败</Remark>
+					</CharacterDefeated>
+					<CharacterDefeated Name="Defeat2" CharacterID="2">
+						<Dialog FileName="Battle1Dialog8" Focus="true"/>
+						<Remark>薇奥拉被击败</Remark>
+					</CharacterDefeated>
+				</Ocurrence>
+			</Event>
+		</Entry>
+		<Entry ID="106" SceneID="3" SceneType="Battle">
+			<Music>
+				<Default>8.mp3</Default>
+				<Player>Battle3.mp3</Player>
+				<Enermy>Battle4.mp3</Enermy>
+			</Music>
+			<Select Name="Default" NextID="110"/>
+			<Select Name="GameOver" NextID="1"/>
+			<Event Select="Default" Transform="True">
+				<Ocurrence>
+					<CharacterDefeated Name="Defeat4" Turn="-1" CharacterID="15">
+						<Dialog FileName="Battle1Dialog5" Focus="true"/>
+						<Remark>安诺被击败</Remark>
+					</CharacterDefeated>
+				</Ocurrence>
+			</Event>
+			<Event Select="GameOver" Transform="True">
+				<Ocurrence>
+					<CharacterDefeated Name="Defeat1" CharacterID="1">
+						<Dialog FileName="Battle1Dialog7" Focus="true"/>
+						<Remark>罗格被击败</Remark>
+					</CharacterDefeated>
+					<CharacterDefeated Name="Defeat2" CharacterID="2">
+						<Dialog FileName="Battle1Dialog8" Focus="true"/>
+						<Remark>薇奥拉被击败</Remark>
+					</CharacterDefeated>
+				</Ocurrence>
+			</Event>
+		</Entry>
+	</Entries>
+</EventHandler>

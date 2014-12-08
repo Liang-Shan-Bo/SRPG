@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<Abilities>
+	<Ability ID="1">
+		<NAME>先锋</NAME>
+		<TYPE>1</TYPE>
+		<DAMAGE>0</DAMAGE>
+		<HEALING>0</HEALING>
+		<RANGE>2</RANGE>
+		<HPCOST>0</HPCOST>
+	</Ability>
+	<Ability ID="2">
+		<NAME>冰霜</NAME>
+		<TYPE>1</TYPE>
+		<DAMAGE>0</DAMAGE>
+		<HEALING>0</HEALING>
+		<RANGE>3</RANGE>
+		<HPCOST>0</HPCOST>
+	</Ability>
+	<Ability ID="3">
+		<NAME>雷击</NAME>
+		<TYPE>1</TYPE>
+		<DAMAGE>0</DAMAGE>
+		<HEALING>0</HEALING>
+		<RANGE>3</RANGE>
+		<HPCOST>0</HPCOST>
+	</Ability>
+	<Ability ID="4">
+		<NAME>飞行</NAME>
+		<TYPE>2</TYPE>
+		<DAMAGE>0</DAMAGE>
+		<HEALING>20</HEALING>
+		<RANGE>2</RANGE>
+		<HPCOST>0</HPCOST>
+	</Ability>
+</Abilities>

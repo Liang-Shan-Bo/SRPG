@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="stage2" tilewidth="64" tileheight="64">
+  <image source="Stage/stage2.png" trans="ff00ff" width="1440" height="1355"/>
+ </tileset>
+ <tileset firstgid="463" name="stage2bk" tilewidth="64" tileheight="64">
+  <image source="Stage/stage2bk.png" trans="ff00ff" width="1440" height="1000"/>
+ </tileset>
+ <layer name="bk" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1OfXz3Ucx/HfdV323kRmVhJpmJGtbAmVRBkNsorIyt6jyCqb7K0oZFb23nvvvTcPf8H1veGOc37vcx73Xp/zvPcJhcIXvmd/myNCoS1sZRvb2cFOdrGbPexlH/s5wEEOcZgjHOUYxzkREX33pM0pTnOGs5zjPBe4yCUuc4WrXOM6N7jJLW5zh7vcC9C9b/OAhzzi8dM3kaFQBJFEEYOYxCI2cYhLPOKTgIQkIjFJIqPvJrVJRnJSkJJUpCYNL5CWdLxIejKQkUxkJgsvkZVsZA/QzWGTk5fJxSvk5lXykJfXyMfrvMGbvEV+ClCQQhSmCG8H6Ba1KcY7FKcEJSlFacpQlnK8y3uUpwIVqURlqlCVarwfoFvd5gNqUJNafMhHfExtPqEOn1KXenzG59SnAQ1pxBd8GaD7lc3XNKYJ39CUZjSnBS35lu9oRWu+pw1t+YF2tKcDHQN0O9n8SGe60JVudKcHPelFb/rQl370ZwADGcRP/MxghgTo/mIzlGEMZwQj+ZXfGMVoxjCWcYxnAhOZxO9MZgpTmRagO91mBjOZxWzmMJd5zGcBf/AnC1nEX/zNYpawlH9YxvIA3RU2K1nFav7lP/5nDWtZx3o2sJFNbGYLW9nGdnawk10Burtt9rCXfeznAAc5xGGOcJRjHOcEJznFac5wlnOc50KA7kWbS1zmCle5xnVucJNb3OYOd7nHfR7wkEc8ftqK8r8SGRV9N8omBjGJRWziEJd4xCcBCUlEYpKQlGQkJwUpSUVq0gTohi984Qvf83JPAPcsr2A=
+  </data>
+ </layer>
+ <layer name="map" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzeP3GGQcxuHZtu2tudm2bdtqtm3btprdXI3phIUxnrzVdvUfPL3/fc9zvbuf84kUKeIiLuIi7v9dFKISjejEICaxiE0c4hKP+CQgIYlITBKSkozkpAjspiI1aUhLOtKTgYxkIjNZyEo2spODnOQiN3nIS77Abn4KUJBCFKYIRXmbYhSnBCUpRWnKUJZylKcCFakU2K1CVapRnRrUpBa1qUNd6lGfBjSkEY1pQlOa0ZwWgd1WtKYNbWlHezrQkU50pgtd6UZ3etCTXvSmD33pF9gdwEAGMZghDGUY7zCcEYxkFKMZw1jGMZ4JTGQSkwO7U5nGdGYwk1nMZg5zmcd8FrCQRSxmCUtZxnJWsDKwu5o1rGUd69nARjaxmS1sZRvb2cFOdrGbPexlH/sDuwc5xGGOcJRjHOddTnCSU5zmDGc5x3kucJFLXOZKYPcq17jODW5yi9u8zwd8yB3uco/7POAhH/Exn/ApnwV2P+cLvuQrHvE13/At3/GYJzzlGc95wff8wI/8xM/8Etj9ld/4nT/4k7/4m5e84h/+5fV/HyJ7RCEq0YhODGISK3JYN45dXOIRnwQkJBGJSUJSkpGcFKQkFalJQ1rSkZ4Mgd1MdpnJQlaykZ0c5CQXuclDXvLxFvkpQEEKUZgiFA3sFrMrTglKUorSlKEs5ShPBSpSicpUoSrVqE4NalIrsFvHri71qE8DGtKIxjShKc1oTgta0orWtKEt7WhPh8BuJ7vOdKEr3ehOD3rSi970oS/96M8ABjKIwQxhKMMCu8PtRjCSUYxmDGMZx3gmMJFJTGYKU5nGdGYwk1nMDuzOtZvHfBawkEUsZglLWcZyVrCSVaxmDWtZx3o2sDGwu9luC1vZxnZ2sJNd7GYPe9nHfg5wkEMc5ghHOcbxwO4Ju5Oc4jRnOMs5znOBi1ziMld4j6tc4zo3uMktbgd23wCRRMpv
+  </data>
+ </layer>
+  <objectgroup name="character" width="30" height="50">
+  <object name="player" x="384" y="2944" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="0"/>
+    <property name="ID" value="2"/>
+   </properties>
+  </object>
+  <object name="enermy" x="768" y="2112" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="player" x="384" y="2880" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="0"/>
+    <property name="ID" value="1"/>
+   </properties>
+  </object>
+  <object name="enermy" x="320" y="2688" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="576" y="2368" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="576" y="2304" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="640" y="2304" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="320" y="2752" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="384" y="2688" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="576" y="2432" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+  <object name="enermy" x="512" y="2432" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

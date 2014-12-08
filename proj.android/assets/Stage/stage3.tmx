@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="17" height="28" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="stage3" tilewidth="64" tileheight="64">
+  <image source="Stage/stage3.png" trans="ff00ff" width="1104" height="2304"/>
+ </tileset>
+ <tileset firstgid="613" name="stage3bk1" tilewidth="64" tileheight="64">
+  <image source="Stage/stage3bk1.png" trans="ff00ff" width="1104" height="1127"/>
+ </tileset>
+ <tileset firstgid="902" name="stage3bk2" tilewidth="64" tileheight="64">
+  <image source="Stage/stage3bk2.png" trans="ff00ff" width="1104" height="668"/>
+ </tileset>
+ <layer name="bk2" width="17" height="28">
+  <data encoding="base64" compression="zlib">
+   eJztw4dWjgEAANCvaaWQJFERQuEts0nLllVJqYyUWYqUJMosSSiRIolE5b5G5/z3nJsdEQQ73Okud7vHve5zvwfM8aC55plvgYUe8rBHPOoxj3vCkxZ5ytOe8aznLLbEUs9b5gXLrfCilVZZ7SUve8Wr1njNWuu87g1vesvb3rHeBu/aaJP3vG+zD2yx1Ye2+ch2H9vhE5/aaZfPfO4LX/rK13bb4xt7fWuf7+z3vR/86ICDfnLIz35x2K+OOOo3vzvmD8f96YS//O2kf5zyr/+cdsZZg8ggCDPcCCONMtp5zneBC11kjIuNNc4lLnWZ8S43wRUmutIkV5nsateYYqpprnWd6a53gxvNcJOb3WKmWW51m9sNCQkJmev+Awu2Y0g=
+  </data>
+ </layer>
+ <layer name="bk1" width="17" height="28">
+  <data encoding="base64" compression="zlib">
+   eJztw4OSlgEAAMCvu2zbtq2rLtu2beviO2Tbtm3btu3a12jm35mdFhYE053hTGc52znOdZ7zXeBCF7nYJS51mctd4UpXudo1rnWd693gRje52S1udZvb3eFOd7nbPe51n/s94EEPedgjHvWYxz3hSU952jOe9ZznveBFL3nZK171mte94U1veds73vWe933gQx/52Cc+9ZnPfeFLX/naN771ne/94Ec/+dkvfvWb3/3hT3/52z/+NQgPgmiGGW50YxjTWMY2jnGNZ3wTmNBEJjaJSU1mclOY0lSmNo1pTWd6M5jRTGY2i1nNZnZzmNNc5jaPec1nfgtY0EIWtohFLWZxS1jSUpa2jGUtZ3krWNEIK1nZKkZa1WpWt4Y1rWVt61jXeta3gQ1tZGOb2NRmNreFLW1la9vY1na2t4Md7WRnu9jVbna3hz3tZW/72Nd+9neAAx3kYIc41GEOd4QjHeVoxzjWcY43yglOdJKTneJUQ0JC/j//AJzJd94=
+  </data>
+ </layer>
+ <layer name="map" width="17" height="28">
+  <data encoding="base64" compression="zlib">
+   eJwNwwN0EAgAANClrVrmsm3b5rJt21q1vGW7Zdu2bd3VXTjU2Vd39d/7P1pAQEB0YxjTWAYaZGzjGNdg4xnfBCY0kYlNYlKTmdwUpjTEVKY2jWlNZ3ozmNFMZjaLWc1mdnOY01zmNo95zWd+C1jQQha2iEUtZnFLWNJSlraMZS1neStY0UpWtopVrWZ1a1jTWta2jnWtZ31DbWBDG9nYJja1mc1tYUtb2do2trWd7e1gRzvZ2S52tZvd7WFPe9nbPva1n/0d4EAHOdghDnWYwx3hSEc52jGOdZxhjneCEw13kpOd4lSnOd0ZRhjpTGc52znOdZ7zXeBCF7nYJS51mctd4UpXudo1RrnWda53gxvd5Ga3uNVtbneHO93lbve4133u94AHPeRhj3jUYx73hCc95WnPeNZznveCF73kZa941Wte94Y3veVt73jXe973gQ995GOf+NRnPvcLv/SFL/3Kr33la9/41m/81u/83ne+9wd/9Cd/9hd/9Td/9w//9C//9h//9YMf/c///WRANIxuDGMay0CDjG0c4xpsPOObwIQmMrFJTGoyk5vClIaYytSmMa3pTG8GM5rJzGYxq9nMbg5zmsvc5jGv+cxvAQtayMIWsajFLG4JS1rK0paxrOUsbwUrWsnKVrGq1axuDWtay9rWsa71rG+oDWxoIxvbxKY2s7ktbGkrW9vGtrazvR3saCc728WudrO7PexpL3vbx772s78DHOggBzvEoQ5zuCMc6ShHO8axjjPM8U5wouFOcrJTnOo0pzvDCCOd6SxnO8e5znO+C1zoIhe7xKUuc7krXOkqV7vGKNe6zvVucKOb3OwWt7rN7e5wp7vc7R73us/9HvCghzzsEY96zOOe8KSnPO0Zz3rO817wope87BWves3r3vCmt7ztHe96z/s+8KGPfOwTn/rM534GbJ3fVA==
+  </data>
+ </layer>
+ <objectgroup name="character" width="17" height="28">
+  <object name="player" x="384" y="1536" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="0"/>
+    <property name="ID" value="3"/>
+    <property name="Partner" value=""/>
+    <property name="Turn" value="1"/>
+   </properties>
+  </object>
+  <object name="player" x="448" y="1600" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="0"/>
+    <property name="ID" value="4"/>
+    <property name="Partner" value=""/>
+    <property name="Turn" value="1"/>
+   </properties>
+  </object>
+  <object name="player" x="320" y="1536" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="0"/>
+    <property name="ID" value="1"/>
+    <property name="Partner" value=""/>
+    <property name="Turn" value="1"/>
+   </properties>
+  </object>
+  <object name="player" x="320" y="1664" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="0"/>
+    <property name="ID" value="2"/>
+    <property name="Partner" value=""/>
+    <property name="Turn" value="1"/>
+   </properties>
+  </object>
+  <object name="player" x="384" y="1664" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="0"/>
+    <property name="ID" value="6"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+   </properties>
+  </object>
+  <object name="enermy" x="704" y="256" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="768" y="320" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="832" y="256" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="player" x="256" y="1600" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="0"/>
+    <property name="ID" value="5"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+   </properties>
+  </object>
+  <object name="enermy" x="64" y="768" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="512" y="256" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="448" y="192" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="576" y="192" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="0" y="704" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="832" y="1408" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="768" y="1472" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="832" y="1536" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="64" y="1152" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="0" y="1216" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="0" y="1088" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="17"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="320" y="960" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="16"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="640" y="960" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="16"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="576" y="960" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="16"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="384" y="960" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="16"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="448" y="1024" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="512" y="1024" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="14"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="448" y="896" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="12"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="512" y="896" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="12"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="512" y="704" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="15"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="384" y="768" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="16"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="576" y="768" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="16"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="576" y="640" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="12"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+  <object name="enermy" x="448" y="640" width="64" height="64">
+   <properties>
+    <property name="FORCE" value="1"/>
+    <property name="ID" value="13"/>
+    <property name="Level" value="3"/>
+    <property name="Turn" value="1"/>
+    <property name="Type" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="affect" width="17" height="28">
+  <object name="walls" x="960" y="704" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="768" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="704" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="384" y="320" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="1536" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="0" y="1536" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="1024" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="768" y="1152" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="1152" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="768" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="1344" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="768" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="960" y="640" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="640" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="1280" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="1216" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="1024" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="1088" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="896" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="960" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="640" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="704" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="512" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="448" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="448" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="192" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="0" y="64" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="448" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="256" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="128" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="384" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="320" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="64" y="960" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="1536" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="576" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="832" y="1088" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="704" y="1152" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="1152" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="1216" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="1280" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="1344" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="1408" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="1472" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="960" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="832" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="896" y="896" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="320" y="256" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="192" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="256" y="128" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="192" y="64" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="128" y="0" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="512" y="1536" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="576" y="1600" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="1728" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+  <object name="walls" x="640" y="1664" width="64" height="64">
+   <properties>
+    <property name="offset" value="255"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="event" width="17" height="28"/>
+</map>

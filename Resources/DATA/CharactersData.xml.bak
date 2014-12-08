@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<characters>
+	<character ID="1">
+		<NAME>罗格</NAME>
+		<HP>145</HP>
+		<HP_PLUS>33</HP_PLUS>
+		<SP>28</SP>
+		<SP_PLUS>8</SP_PLUS>
+		<STR>42</STR>
+		<STR_PLUS>18</STR_PLUS>
+		<DEF>20</DEF>
+		<DEF_PLUS>10</DEF_PLUS>
+		<MAG>19</MAG>
+		<MAG_PLUS>8</MAG_PLUS>
+		<SPD>10</SPD>
+		<SPD_PLUS>5</SPD_PLUS>
+		<LUK>20</LUK>
+		<LUK_PLUS>2</LUK_PLUS>
+		<DEX>17</DEX>
+		<DEX_PLUS>7</DEX_PLUS>
+		<TYPE>4</TYPE>
+		<MOVE>6</MOVE>
+		<MINRANGE>1</MINRANGE>
+		<MAXRANGE>1</MAXRANGE>
+		<SKILLS>
+			<SKILL LEVEL="1" ID="3"/>
+		</SKILLS>
+	</character>
+	<character ID="2">
+		<NAME>薇欧拉</NAME>
+		<HP>90</HP>
+		<HP_PLUS>24</HP_PLUS>
+		<SP>50</SP>
+		<SP_PLUS>16</SP_PLUS>
+		<STR>30</STR>
+		<STR_PLUS>13</STR_PLUS>
+		<DEF>11</DEF>
+		<DEF_PLUS>6</DEF_PLUS>
+		<MAG>40</MAG>
+		<MAG_PLUS>18</MAG_PLUS>
+		<SPD>8</SPD>
+		<SPD_PLUS>4</SPD_PLUS>
+		<LUK>40</LUK>
+		<LUK_PLUS>3</LUK_PLUS>
+		<DEX>15</DEX>
+		<DEX_PLUS>6</DEX_PLUS>
+		<TYPE>3</TYPE>
+		<MOVE>4</MOVE>
+		<MINRANGE>3</MINRANGE>
+		<MAXRANGE>4</MAXRANGE>
+		<SKILLS>
+			<SKILL LEVEL="1" ID="2"/>
+			<SKILL LEVEL="1" ID="4"/>
+		</SKILLS>
+	</character>
+	<character ID="3">
+		<NAME>帝国祭司</NAME>
+		<HP>75</HP>
+		<HP_PLUS>18</HP_PLUS>
+		<SP>44</SP>
+		<SP_PLUS>13</SP_PLUS>
+		<STR>17</STR>
+		<STR_PLUS>10</STR_PLUS>
+		<DEF>8</DEF>
+		<DEF_PLUS>4</DEF_PLUS>
+		<MAG>35</MAG>
+		<MAG_PLUS>15</MAG_PLUS>
+		<SPD>4</SPD>
+		<SPD_PLUS>2</SPD_PLUS>
+		<LUK>24</LUK>
+		<LUK_PLUS>2</LUK_PLUS>
+		<DEX>10</DEX>
+		<DEX_PLUS>4</DEX_PLUS>
+		<TYPE>2</TYPE>
+		<MOVE>4</MOVE>
+		<MINRANGE>1</MINRANGE>
+		<MAXRANGE>1</MAXRANGE>
+		<SKILLS>
+			<SKILL LEVEL="1" ID="1"/>
+			<SKILL LEVEL="1" ID="4"/>
+		</SKILLS>
+	</character>
+	<character ID="14">
+		<NAME>帝国士兵</NAME>
+		<HP>110</HP>
+		<HP_PLUS>30</HP_PLUS>
+		<SP>19</SP>
+		<SP_PLUS>5</SP_PLUS>
+		<STR>35</STR>
+		<STR_PLUS>15</STR_PLUS>
+		<DEF>13</DEF>
+		<DEF_PLUS>7</DEF_PLUS>
+		<MAG>10</MAG>
+		<MAG_PLUS>6</MAG_PLUS>
+		<SPD>8</SPD>
+		<SPD_PLUS>3</SPD_PLUS>
+		<LUK>10</LUK>
+		<LUK_PLUS>1</LUK_PLUS>
+		<DEX>14</DEX>
+		<DEX_PLUS>5</DEX_PLUS>
+		<TYPE>3</TYPE>
+		<MOVE>5</MOVE>
+		<MINRANGE>1</MINRANGE>
+		<MAXRANGE>1</MAXRANGE>
+		<SKILLS>
+			<SKILL LEVEL="1" ID="3"/>
+		</SKILLS>
+	</character>
+</characters>
