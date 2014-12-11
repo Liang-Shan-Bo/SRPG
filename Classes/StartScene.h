@@ -42,6 +42,7 @@ private:
 	//bool m_bGetStart;
 	
 	//CCLabelTTF* m_pPassStartLabel;
+	//void updateDialog(float time);
 	//CCLabelTTF* m_pNewGameLabel;
 	//CCLabelTTF* m_pExitLabel;
  //   CCPoint m_tBeginPos;

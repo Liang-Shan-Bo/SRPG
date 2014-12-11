@@ -27,6 +27,13 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
+LOCAL_C_INCLUDES += \
+$(LOCAL_PATH)/../../../iconv/include \
+$(LOCAL_PATH)/../../../iconv/libcharset \
+$(LOCAL_PATH)/../../../iconv/lib \
+$(LOCAL_PATH)/../../../iconv/libcharset\include \
+$(LOCAL_PATH)/../../../iconv/srclib \
+$(LOCAL_PATH)/../../../iconv
 
 LOCAL_STATIC_LIBRARIES := curl_static_prebuilt
 
@@ -36,7 +43,6 @@ LOCAL_WHOLE_STATIC_LIBRARIES += box2d_static
 LOCAL_WHOLE_STATIC_LIBRARIES += chipmunk_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos_extension_static
 LOCAL_WHOLE_STATIC_LIBRARIES += jsoncpp_static
-
 include $(BUILD_SHARED_LIBRARY)
 
 $(call import-module,cocos2dx)

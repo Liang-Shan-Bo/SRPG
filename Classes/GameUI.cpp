@@ -3,7 +3,8 @@
 #include "BattleObject.h"
 #include "StoryScene.h"
 #include "EventHandler.h"
-
+#include <string>
+using namespace std;
 #define DIALOG_START_X 60
 #define DIALOG_END_X 580
 #define DIALOG_START_Y 114
@@ -11,7 +12,7 @@
 #define DIALOG_STR_SHOW_LINE 3
 #define DIALOG_STR_SHOW_CSTYLE_CAP (DIALOG_STR_SHOUW_ROW*DIALOG_STR_SHOW_LINE)*2+1
 //对话阅读的文字时间间隔
-#define DIALOG_WORD_DUR 0.010f
+#define DIALOG_WORD_DUR 0.03f
 
 
 //初始化角色战斗菜单单例
@@ -1048,14 +1049,16 @@ void DialogMenu::ReadUpdate( float fTime )
 {
 	if(!m_bPause)
 	{
-		char chWords[DIALOG_STR_SHOW_CSTYLE_CAP] = {0};
+		char chWords[DIALOG_STR_SHOW_CSTYLE_CAP];
+		memset(chWords,0,DIALOG_STR_SHOW_CSTYLE_CAP*sizeof(char));
 		if(m_nReadStartCount!=0)
 		{
 			memcpy((void*)chWords,(void*)(m_chWordBuffer+m_nReadPassCount),m_nReadStartCount);
 		}
-		for(int i =0;i<2;i++)
+		for(int i =0;i<3;i++)
 		{
 			m_nReadStartCount++;
+			
 			//检查命令符
 			if (m_chWordBuffer[m_nReadPassCount+m_nReadStartCount-1]=='\n')
 			{
@@ -1074,7 +1077,7 @@ void DialogMenu::ReadUpdate( float fTime )
 			{
 				chWords[m_nReadStartCount-1] = m_chWordBuffer[m_nReadPassCount+m_nReadStartCount-1];
 				chWords[m_nReadStartCount] = '\0';
-				if(m_chWordBuffer[m_nReadPassCount+m_nReadStartCount-1]==','||m_chWordBuffer[m_nReadPassCount+m_nReadStartCount-1]=='.')
+				if(m_chWordBuffer[m_nReadPassCount+m_nReadStartCount-1]==','||m_chWordBuffer[m_nReadPassCount+m_nReadStartCount-1]=='.'||m_chWordBuffer[m_nReadPassCount+m_nReadStartCount-1]==':')
 				{
 					break;
 				}
@@ -1087,7 +1090,6 @@ void DialogMenu::ReadUpdate( float fTime )
 				}
 			}
 		}
-		m_pDialogContent->setString("");
 		m_pDialogContent->setString(chWords);
 	}	
 }
@@ -1168,9 +1170,6 @@ void DialogMenu::RefreshImage()
 		//go next loop
 		cKey = m_chWordBuffer[m_nReadPassCount];
 	}
-	//memcpy((void*)chID,(void*)(m_chWordBuffer+m_nReadPassCount),30);
-	//sscanf(chID,"%d:%s",nID);
-	//CCLog("character is %d",nID);
 }
 
 void DialogMenu::menuSkipCallback( CCObject* pSender )

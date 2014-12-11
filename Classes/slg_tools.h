@@ -2,6 +2,9 @@
 #define __VISIBLERECT_H__
 
 #include "cocos2d.h"
+//#include "platform\third_party\win32\iconv\iconv.h"
+//#include <string>
+//using namespace std;
 USING_NS_CC;
 
 class VisibleRect
@@ -26,6 +29,13 @@ private:
 
 float GetSpriteTextureLength(CCSprite* sprite);
 float GetSpriteTextureHeight(CCSprite* sprite);
+
+//class ConvertCharsetTool{
+//public:
+//static int code_convert( const char *from_charset, const char *to_charset, const char *inbuf, size_t inlen, char *outbuf, size_t outlen );
+//static string u2a( const char *inbuf);
+//static string a2u(const char *inbuf);
+//};
 
 //定义类的int型成员变量的getter宏
 #define IntGetter(_valueName_) \

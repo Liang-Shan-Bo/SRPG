@@ -335,6 +335,7 @@ void BattleMap::InitGame()
 	TurnBegin(this,NULL);
 	////播放背景音乐
 	SimpleAudioEngine::sharedEngine()->playBackgroundMusic(m_strPlayerTurnMusic.c_str(),true);
+	//设置战场地图的下雪天气，默认为第一个场景下雪
 	if(EventHandler::instance()->GetSceneID()==1)
 	{
 		CCNode * pRain = CCParticleRain::createWithTotalParticles(123);

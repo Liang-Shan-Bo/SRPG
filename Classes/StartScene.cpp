@@ -13,6 +13,18 @@ void StartNow::onEnter()
 	m_nLoadCount = 0;
 	InitStartSceneResoures();
 }
+//void StartNow::updateDialog(float time){
+//	static char count = '0';
+//	static string s ="";
+//	if(count>'9'){
+//		count = '0';
+//		s = count;
+//	}else{
+//	 s = s+count;
+//	}
+//	count++;
+//	m_pPassStartLabel->setString(s.c_str());
+//}
 
 bool StartNow ::init()
 {
@@ -29,16 +41,18 @@ bool StartNow ::init()
 	SimpleAudioEngine::sharedEngine()->preloadBackgroundMusic(chPathStr);
 	
 
-
+	
 	//m_bGetStart = false;
-	//m_pPassStartLabel = CCLabelTTF::create("PassStart", "Arial", 24);
+	//m_pPassStartLabel = CCLabelTTF::create("", "Arial",24,::CCSizeMake(200,150), kCCTextAlignmentLeft);
+	//schedule(schedule_selector(StartNow::updateDialog),0.5f,kCCRepeatForever,0);
+
 	//m_pNewGameLabel = CCLabelTTF::create("NewGame", "Arial", 24);
 	//m_pExitLabel = CCLabelTTF::create("Exit", "Arial", 24);
 	//if(!m_pPassStartLabel||!m_pNewGameLabel||!m_pExitLabel)
 	//{
 	//	return false;
 	//}
-	//addChild(m_pPassStartLabel,0);
+	//addChild(m_pPassStartLabel,255);
 	//addChild(m_pNewGameLabel,0);
 	//addChild(m_pExitLabel,0);
 	//m_pPassStartLabel->setPosition(ccp(VisibleRect::center().x,VisibleRect::top().y/4));
@@ -203,8 +217,6 @@ void StartNow::LoadingCallBack(CCObject* pSender)
 		pBackGround->setAnchorPoint(ccp(0,0));
 		pBackGround->runAction(CCRepeatForever::create(CCAnimate::create(pAnimation)));
 
-		
-		
 		char chPlistStr[50] = {0};
 		char chImageStr[50] = {0};
 		sprintf(chPlistStr,"%s.plist",TITLE_MENU_FILE_FULLPATH);
